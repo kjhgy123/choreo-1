@@ -2,12 +2,12 @@ const express = require("express");
 const app = express();
 const { exec, execSync } = require('child_process');
 const port = process.env.SERVER_PORT || process.env.PORT || 3000;        
-const UUID = process.env.UUID || '59c63d49-88da-4236-b1d8-cd409e4b1e9d'; //
+const UUID = process.env.UUID || 'aa270056-d163-41d4-a06e-20c6aaeb7578'; //
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '';                     //
 const NEZHA_KEY = process.env.NEZHA_KEY || '';   //
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';     //
-const ARGO_AUTH = process.env.ARGO_AUTH || '';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo-1.qmjjhvu.cf';     //
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiOGYzYzExMmU3NzQxY2M2ZTIzNThlNDE2YjAxNWU4YTIiLCJ0IjoiZmM4MjE3NjctOTkyNC00MWYwLTllN2MtZDZmYzUzOWJhZmQ3IiwicyI6Ik4ySTROMkkwT0RjdFkySTJNQzAwWVRneUxUaGxabUl0TUdRM1lXSmxORFpoTm1JMyJ9';
 const CFIP = process.env.CFIP || 'www.visa.com.tw';
 const NAME = process.env.NAME || 'Choreo-US';
 
